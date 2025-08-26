@@ -19,9 +19,21 @@ There is an error in this program where the random cards are out of range. I hav
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 1. Clone the Repository
+### Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/texas-holdem-cpp.git
-cd texas-holdem-cpp
+git clone https://github.com/justkbab/Poker.git
+cd Poker
+```
+
+### Build the game:
+```bash
+g++ main.cpp Player.cpp cards.cpp -o poker
+```
+
+### Run the game:
+```bash
+./poker
+```
+Then follow the on-screen prompts to play.
